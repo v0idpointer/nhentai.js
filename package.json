@@ -1,0 +1,25 @@
+{
+  "name": "nhentai.js",
+  "version": "1.0.0",
+  "description": "JavaScript library for interacting with nHentai.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v0idpointer/nhentai.js.git"
+  },
+  "keywords": [
+    "r18",
+    "hentai",
+    "nhentai",
+    "api"
+  ],
+  "author": "V0idPointer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v0idpointer/nhentai.js/issues"
+  },
+  "homepage": "https://github.com/v0idpointer/nhentai.js#readme"
+}
