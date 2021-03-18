@@ -7,7 +7,7 @@ nHentai.JS is a JavaScript library for interacting with nHentai.net
 Use the Node Package Manager ([npm](https://www.npmjs.com/)) to install nHentai.JS.
 
 ```bash
-npm install nhentai.js
+npm install @v0idpointer/nhentai.js
 ```
 ## Features
 - Search Doujins using an ID.
@@ -18,7 +18,7 @@ npm install nhentai.js
 The following example shows how to retrieve a Doujin using an ID, commonly known as a "sauce code":
 
 ```javascript
-const nHentai = require("nhentai.js");
+const nHentai = require("@v0idpointer/nhentai.js");
 
 nHentai.GetDoujin(297974).then(doujin => {
     let title = doujin.GetEnglishTitle(); // Gets the English title of the Doujin.
@@ -30,7 +30,7 @@ nHentai.GetDoujin(297974).then(doujin => {
 ```
 The following shows how to search for Doujins that match specified tags:
 ```javascript
-const nHentai = require("nhentai.js");
+const nHentai = require("@v0idpointer/nhentai.js");
 
 var search = nHentai.BeginSearch(); // Creates a new search object.
 search.GetTag("catgirl").then(tag => { // Get a Tag object using a name.
@@ -43,7 +43,7 @@ search.GetTag("catgirl").then(tag => { // Get a Tag object using a name.
 ```
 Here's another example showing how to search with tags. In this case, the code is searching for a character:
 ```javascript
-const nHentai = require("nhentai.js");
+const nHentai = require("@v0idpointer/nhentai.js");
 
 var search = nHentai.BeginSearch(); // Creates a new search object.
 
