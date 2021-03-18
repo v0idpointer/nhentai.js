@@ -1,5 +1,5 @@
 {
-  "name": "nhentai.js",
+  "name": "@v0idpointer/nhentai.js",
   "version": "1.0.0",
   "description": "JavaScript library for interacting with nHentai.net",
   "main": "index.js",
